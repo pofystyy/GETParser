@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GETParser</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <table>
+        <tr>
+          <th>Key</th>
+          <th>Value</th>
+        </tr>       
+        <% parser.each do |key, value| %>
+          <tr>
+            <td><%= key %></td>
+            <td><%= value %></td>
+          </tr>
+        <% end %>
+      </table>
+    </div>
+  </body>
+</html>
+
+
